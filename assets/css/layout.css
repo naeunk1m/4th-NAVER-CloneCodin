@@ -1,0 +1,14 @@
+#wrap {
+    text-align: center;
+}
+
+#wrap-center {
+    width: 1280px;
+    display: inline-block;
+}
+
+#header {
+    position: relative;
+    text-align: left;
+    height: 64px;
+}
