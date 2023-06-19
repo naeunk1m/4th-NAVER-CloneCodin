@@ -11,83 +11,12 @@
     <link rel="stylesheet" href="./assets/css/common.css">
     <link rel="stylesheet" href="./assets/css/layout.css">
     <link rel="stylesheet" href="./assets/css/main.css">
-
-
-
-    <style>
-        #header-hamburger,
-        #header-naverpay,
-        #header-notice {
-            position: absolute;
-            top: 18px;
-            padding: 10px;
-            display: inline-block;
-            background: none;
-            border: none;
-            cursor: pointer;
-        }
-
-        #header-hamburger {
-            left: -10px;
-        }
-
-        #header-hamburger:hover::before,
-        #header-naverpay:hover::before,
-        #header-notice:hover::before {
-            position: absolute;
-            content: '';
-            left: 1px;
-            top: 1px;
-            width: 44px;
-            height: 44px;
-            background-color: var(--color_option_bg);
-            border-radius: 50%;
-        }
-
-
-        #header-hamburger>div,
-        #header-naverpay>div,
-        #header-notice>div {
-            background-image: url(./assets/image/sp_main.8d370390.png);
-            position: relative;
-            width: 26px;
-            height: 26px;
-            z-index: 1;
-            background-repeat: no-repeat;
-            background-size: 422px 405px;
-        }
-
-        #header-hamburger>div {
-            background-position: -335px -284px;
-        }
-
-        #header-naverpay {
-            right: 42px;
-            width: 46px;
-            height: 46px;
-            padding: 10px 8px;
-        }
-
-        #header-naverpay>div {
-            width: 30px;
-            background-size: 422px 405px;
-            background-position: -31px -316px;
-        }
-
-        #header-notice {
-            right: -10px;
-        }
-
-        #header-notice>div {
-            background-position: -364px -27px;
-        }
-    </style>
 </head>
 
 <body>
     <div id="wrap">
         <div id="wrap-center">
-            <div id="header">
+            <header id="header">
                 <button id="header-hamburger">
                     <div></div>
                     <span class="blind">확장 영역</span>
@@ -101,7 +30,7 @@
                     <span class="blind">알림</span>
                 </button>
 
-            </div>
+            </header>
             <div id="search">
                 <form action="">
                     <a id="search-svg" href="">
@@ -124,7 +53,7 @@
                     </div>
                 </form>
             </div>
-            <div id="nav">
+            <nav id="nav">
                 <ul>
                     <li>
                         <a href="">
@@ -187,8 +116,91 @@
                         </a>
                     </li>
                 </ul>
-            </div>
-            <div id="main"></div>
+            </nav>
+            <main id="main">
+                <div id="main-left">
+                    <aside id="main-left-ad"></aside>
+                    <section id="main-news">
+                        <div id="main-news-top">
+                            <div class="main-title1">
+                                <a href="" class="on">뉴스스탠드</a>
+                                <a href="">언론사편집</a>
+                                <a href="">엔터</a>
+                                <a href="">스포츠</a>
+                                <a href="">경제</a>
+                            </div>
+                            <div id="main-newscontent">
+                                <div>
+                                    <a href="">전체언론사</a>
+                                    <a href="">연합뉴스</a>
+                                    <a href="">정부, 마약사범 치료·재활 조건부 기소유예로 사회복귀 돕는다</a>
+                                </div>
+                                <div>
+                                    <a href="">뉴스스탠드</a>
+                                    <a href="">뉴스홈</a>
+                                </div>
+                            </div>
+                            <div id="main-newsgroup">
+                                <div>언론사</div>
+                                <div>언론사</div>
+                                <div>언론사</div>
+                                <div>언론사</div>
+                                <div>언론사</div>
+                                <div>언론사</div>
+                                <div>언론사</div>
+                                <div>언론사</div>
+                                <div>언론사</div>
+                                <div>언론사</div>
+                                <div>언론사</div>
+                                <div>언론사</div>
+                                <div>언론사</div>
+                                <div>언론사</div>
+                                <div>언론사</div>
+                                <div>언론사</div>
+                                <div>언론사</div>
+                                <div>언론사</div>
+                                <div>언론사</div>
+                                <div>언론사</div>
+                                <div>언론사</div>
+                                <div>언론사</div>
+                                <div>언론사</div>
+                                <div>언론사</div>
+                            </div>
+                        </div>
+                        <div class="paging">
+                            <button><span class="blind">이전</span></button>
+                            <div>언론사 더보기3페이지전체/21</div>
+                            <button><span class="blind">다음</span></button>
+                            <button><span class="blind">목록보기</span></button>
+                            <button><span class="blind">격자보기</span></button>
+                        </div>
+                    </section>
+                    <section id="main-shopping"></section>
+                </div>
+                <div id="main-right">
+                    <section id="main-login">
+                        <div>네이버를 더 안전하고 편리하게 이용하세요</div>
+                        <a href="" id="main-login-btn">
+                            <i></i>
+                            <p>로그인</p>
+                        </a>
+                        <div>
+                            <a href="">아이디 찾기</a>
+                            <a href="">비밀번호 찾기</a>
+                            <a href="">회원가입</a>
+                        </div>
+                    </section>
+                    <aside id="main-right-ad"></aside>
+                    <section id="main-weather">
+                        <div class="main-title">날씨</div>
+                        <div class="main-line"></div>
+                    </section>
+                    <section id="main-stock">
+                        <div class="main-title">증시</div>
+                        <div class="main-line"></div>
+                    </section>
+                </div>
+            </main>
         </div>
     </div>
 </body>
