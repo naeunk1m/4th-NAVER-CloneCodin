@@ -14,46 +14,46 @@
 </head>
 
 <body>
-    <div id="wrap">
-        <div id="wrap-center">
-            <header id="header">
-                <button id="header-hamburger">
+    <div class="wrap">
+        <div class="wrap-center">
+            <header class="header">
+                <button class="header-hamburger">
                     <div></div>
                     <span class="blind">확장 영역</span>
                 </button>
-                <button id="header-naverpay">
+                <button class="header-naverpay">
                     <div></div>
                     <span class="blind">네이버페이</span>
                 </button>
-                <button id="header-notice">
+                <button class="header-notice">
                     <div></div>
                     <span class="blind">알림</span>
                 </button>
 
             </header>
-            <div id="search">
+            <div class="search">
                 <form action="">
-                    <a id="search-svg" href="">
+                    <a class="search-svg" href="">
                         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M16.273 12.845 7.376 0H0v24h7.727V11.155L16.624 24H24V0h-7.727v12.845z"></path>
                         </svg>
                     </a>
                     <label for="search-input" class="blind">검색어 입력</label>
-                    <input id="search-input" type="text" placeholder="검색어를 입력하세요.">
-                    <div id="search-right">
-                        <button id="search-keyboard">
+                    <input class="search-input" type="text" placeholder="검색어를 입력하세요.">
+                    <div class="search-right">
+                        <button class="search-keyboard">
                             <span class="blind">입력도구</span>
                         </button>
-                        <button id="search-recent">
+                        <button class="search-recent">
                             <span class="blind">자동완성/최근검색어펼치기</span>
                         </button>
-                        <button id="search-button">
+                        <button class="search-button">
                             <div><span class="blind">검색</span></div>
                         </button>
                     </div>
                 </form>
             </div>
-            <nav id="nav">
+            <nav class="nav">
                 <ul>
                     <li>
                         <a href="">
@@ -117,30 +117,41 @@
                     </li>
                 </ul>
             </nav>
-            <main id="main">
-                <div id="main-left">
-                    <aside id="main-left-ad"></aside>
-                    <section id="main-news">
-                        <div id="main-news-top">
+            <main class="main">
+                <div class="main-left">
+                    <aside class="main-left-ad">
+                    </aside>
+                    <section class="main-news">
+                        <div class="main-news-top">
                             <div class="main-title1">
-                                <a href="" class="on">뉴스스탠드</a>
-                                <a href="">언론사편집</a>
-                                <a href="">엔터</a>
-                                <a href="">스포츠</a>
-                                <a href="">경제</a>
+                                <a href="" class="bold">뉴스스탠드</a>
+                                <a href="" class="dot">언론사편집</a>
+                                <a href="" class="slash">엔터</a>
+                                <a href="" class="slash">스포츠</a>
+                                <a href="" class="slash">경제</a>
                             </div>
-                            <div id="main-newscontent">
-                                <div>
+                            <div class="main-newscontent news">
+                                <div class="left news">
                                     <a href="">전체언론사</a>
-                                    <a href="">연합뉴스</a>
-                                    <a href="">정부, 마약사범 치료·재활 조건부 기소유예로 사회복귀 돕는다</a>
+                                    <div class="main-newstand-animation">
+                                        <a href="">
+                                            연합뉴스
+                                        </a>
+                                        <div class="main-newstand-animation-target">
+                                            <a href="">1정부, 마약사범 치료·재활 조건부 기소유예로 사회복귀 돕는다</a>
+                                            <!-- <div>
+                                                <a href="">2정부, 마약사범 치료·재활 조건부 기소유예로 사회복귀 돕는다</a>
+                                                <a href="">3정부, 마약사범 치료·재활 조건부 기소유예로 사회복귀 돕는다</a>
+                                            </div> -->
+                                        </div>
+                                    </div>
                                 </div>
-                                <div>
+                                <div class="right news">
                                     <a href="">뉴스스탠드</a>
-                                    <a href="">뉴스홈</a>
+                                    <a href="" class="bold">뉴스홈</a>
                                 </div>
                             </div>
-                            <div id="main-newsgroup">
+                            <div class="main-newsgroup">
                                 <div>언론사</div>
                                 <div>언론사</div>
                                 <div>언론사</div>
@@ -168,21 +179,97 @@
                             </div>
                         </div>
                         <div class="paging">
-                            <button><span class="blind">이전</span></button>
-                            <div>언론사 더보기3페이지전체/21</div>
-                            <button><span class="blind">다음</span></button>
-                            <button><span class="blind">목록보기</span></button>
-                            <button><span class="blind">격자보기</span></button>
+                            <button class="prev"><span class="blind">이전 페이지</span></button>
+                            <div class="text"><span class="news">언론사</span>&nbsp;더보기&nbsp;1<span class="total">/4</span>
+                            </div>
+                            <button class="next"><span class="blind">다음 페이지</span></button>
+                            <button class="list"><span class="blind">목록보기</span></button>
+                            <button class="grid"><span class="blind">격자보기</span></button>
                         </div>
                     </section>
-                    <section id="main-shopping"></section>
+                    <section class="main-news shopping">
+                        <div class="main-news-top">
+                            <div class="main-title1">
+                                <a href="" class="bold">쇼핑</a>
+                                <a href="" class="slash">맨즈</a>
+                                <a href="" class="slash">원쁠딜</a>
+                                <a href="" class="slash">쇼핑라이브</a>
+                            </div>
+                            <div class="main-newscontent shopping">
+                                <div class="left shopping">
+                                    <a href="">오늘의 혜택</a>
+                                    <div class="main-newstand-animation">
+                                        <a href="" class="mall">
+                                            <img src="./assets/image/f7d3e32c-bcd8-4c12-84a7-04305c92ef15.png" alt="">
+                                        </a>
+                                        <a href="">매일 00시, 슈퍼투데이특가 놓치면 후회할 </a>
+                                    </div>
+                                </div>
+                                <div class="right shopping">
+                                    <span>1</span>
+                                    <span>/18</span>
+                                    <button class="prev"><span class="blind">이전</span></button>
+                                    <button class="next"><span class="blind">다음</span></button>
+                                </div>
+                            </div>
+                            <div class="main-shopping-grid">
+                                <div class="item">
+                                    <div class="img"></div>
+                                    <div class="txt">실시간인기템특가<br>BEST원피스세일</div>
+                                </div>
+                                <div class="item">
+                                    <div class="img"></div>
+                                    <div class="txt">실시간인기템특가<br>BEST원피스세일</div>
+                                </div>
+                                <div class="item">
+                                    <div class="img"></div>
+                                    <div class="txt">실시간인기템특가<br>BEST원피스세일</div>
+                                </div>
+                                <div class="item">
+                                    <div class="img"></div>
+                                    <div class="txt">실시간인기템특가<br>BEST원피스세일</div>
+                                </div>
+                                <div class="item">
+                                </div>
+                                <div class="item">
+                                </div>
+                                <div class="item">
+                                    <div class="img"></div>
+                                    <div class="txt">실시간인기템특가<br>BEST원피스세일</div>
+                                </div>
+                                <div class="item">
+                                    <div class="img"></div>
+                                    <div class="txt">실시간인기템특가<br>BEST원피스세일</div>
+                                </div>
+                                <div class="item">
+                                    <div class="img"></div>
+                                    <div class="txt">실시간인기템특가<br>BEST원피스세일</div>
+                                </div>
+                                <div class="item">
+                                    <div class="img"></div>
+                                    <div class="txt">실시간인기템특가<br>BEST원피스세일</div>
+                                </div>
+                                <div class="item">
+                                    <div></div>
+                                    <p>올리브영 p!ck 특가 확인하기</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="paging">
+                            <button class="prev"><span class="blind">이전 페이지</span></button>
+                            <div class="text"><span class="news">쇼핑핫아이템</span>&nbsp;더보기&nbsp;1<span
+                                    class="total">/18</span>
+                            </div>
+                            <button class="next"><span class="blind">다음 페이지</span></button>
+                        </div>
+                    </section>
                 </div>
-                <div id="main-right">
-                    <section id="main-login">
+                <div class="main-right">
+                    <section class="main-login">
                         <div>네이버를 더 안전하고 편리하게 이용하세요</div>
-                        <a href="" id="main-login-btn">
+                        <a href="" class="main-login-btn">
                             <i></i>
-                            <p>로그인</p>
+                            로그인
                         </a>
                         <div>
                             <a href="">아이디 찾기</a>
@@ -190,12 +277,12 @@
                             <a href="">회원가입</a>
                         </div>
                     </section>
-                    <aside id="main-right-ad"></aside>
-                    <section id="main-weather">
+                    <aside class="main-right-ad"></aside>
+                    <section class="main-weather">
                         <div class="main-title">날씨</div>
                         <div class="main-line"></div>
                     </section>
-                    <section id="main-stock">
+                    <section class="main-stock">
                         <div class="main-title">증시</div>
                         <div class="main-line"></div>
                     </section>

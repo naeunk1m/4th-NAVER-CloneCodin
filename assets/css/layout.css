@@ -1,21 +1,21 @@
-#wrap {
+.wrap {
     text-align: center;
 }
 
-#wrap-center {
+.wrap-center {
     width: 1280px;
     display: inline-block;
 }
 
-#header {
+.header {
     position: relative;
     text-align: left;
     height: 64px;
 }
 
-#header-hamburger,
-        #header-naverpay,
-        #header-notice {
+.header-hamburger,
+        .header-naverpay,
+        .header-notice {
             position: absolute;
             top: 18px;
             padding: 10px;
@@ -25,13 +25,13 @@
             cursor: pointer;
         }
 
-        #header-hamburger {
+        .header-hamburger {
             left: -10px;
         }
 
-        #header-hamburger:hover::before,
-        #header-naverpay:hover::before,
-        #header-notice:hover::before {
+        .header-hamburger:hover::before,
+        .header-naverpay:hover::before,
+        .header-notice:hover::before {
             position: absolute;
             content: '';
             left: 1px;
@@ -43,9 +43,9 @@
         }
 
 
-        #header-hamburger>div,
-        #header-naverpay>div,
-        #header-notice>div {
+        .header-hamburger>div,
+        .header-naverpay>div,
+        .header-notice>div {
             background-image: url(../image/sp_main.8d370390.png);
             position: relative;
             width: 26px;
@@ -55,27 +55,27 @@
             background-size: 422px 405px;
         }
 
-        #header-hamburger>div {
+        .header-hamburger>div {
             background-position: -335px -284px;
         }
 
-        #header-naverpay {
+        .header-naverpay {
             right: 42px;
             width: 46px;
             height: 46px;
             padding: 10px 8px;
         }
 
-        #header-naverpay>div {
+        .header-naverpay>div {
             width: 30px;
             background-size: 422px 405px;
             background-position: -31px -316px;
         }
 
-        #header-notice {
+        .header-notice {
             right: -10px;
         }
 
-        #header-notice>div {
+        .header-notice>div {
             background-position: -364px -27px;
         }
