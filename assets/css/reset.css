@@ -12,6 +12,8 @@ body {
     font-family: -apple-system,BlinkMacSystemFont,'Malgun Gothic','맑은 고딕',helvetica,'Apple SD Gothic Neo',helvetica,'나눔바른고딕 옛한글','NanumBarunGothic YetHangul',sans-serif;
 }
 
+fieldset{border: none;}
+
 form, ul {
     margin: 0;
     padding: 0;
